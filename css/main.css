@@ -1,0 +1,29 @@
+@-webkit-keyframes floatUp {
+	0% {opacity: 0; transform: translateY(0px);}
+	100% {opacity: 1; transform: translateY(-1200px);}
+}
+@-moz-keyframes floatUp {
+	0% {opacity: 0; transform: translateY(0px);}
+	100% {opacity: 1; transform: translateY(-1200px);}
+}
+@keyframes floatUp {
+	0% {opacity: 0; transform: translateY(0px);}
+	100% {opacity: 1; transform: translateY(-1200px);}
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: futura;
+}
+.bubbles {
+	font-family: 'Coiny', cursive;
+	position: absolute;
+}
+.float {
+	-webkit-animation-name: floatUp;
+	-moz-animation-name: floatUp;
+	animation-name: floatUp;
+	-webkit-animation-timing-function: ease-out;
+	-moz-animation-timing-function: ease-out;
+	animation-timing-function: ease-out;
+}
